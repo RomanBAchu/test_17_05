@@ -40,6 +40,7 @@ cursor.close()
 conn.close()
 
 
+
 def create_table_users():
     """СОЗДАНИЕ ТАБЛИЦЫ USERS (НАЙДЕННЫЕ ПОЛЬЗОВАТЕЛИ"""
     with conn.cursor() as cursor:
